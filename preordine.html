@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aethelgard's Fall - Preordine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AETHELGARD'S FALL</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personaggi.html">Personaggi</a></li>
+                <li><a href="requisiti.html">Info</a></li>
+                <li><a href="preordine.html" class="active">Preordine</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <h1>Preordina Aethelgard's Fall</h1>
+            <p>Assicurati l'accesso anticipato e i contenuti esclusivi in-game prenotando la tua copia oggi stesso.</p>
+        </section>
+
+        <section class="comparison-section">
+            <h2>Edizioni Disponibili</h2>
+            <div class="table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Edizione</th>
+                            <th>Prezzo</th>
+                            <th>Contenuti Inclusi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Standard Edition</td>
+                            <td>€ 59.99</td>
+                            <td>Gioco base, Set Armatura 'Spirito Ombra' (Bonus Preordine)</td>
+                        </tr>
+                        <tr>
+                            <td>Deluxe Edition</td>
+                            <td>€ 79.99</td>
+                            <td>Gioco base, Artbook Digitale, Colonna Sonora, 3 Giorni di Accesso Anticipato</td>
+                        </tr>
+                        <tr>
+                            <td>Collector's Edition</td>
+                            <td>€ 149.99</td>
+                            <td>Tutti i contenuti Deluxe + Statuetta di Gorgorth (25cm) e Steelbook esclusiva</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Modulo di Prenotazione</h2>
+            <form action="#" method="post" class="newsletter-form">
+                
+                <div class="form-group">
+                    <label for="nome-preordine">Nome Completo:</label>
+                    <input type="text" id="nome-preordine" name="nome" placeholder="Mario Rossi" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-preordine">Email per l'invio della chiave:</label>
+                    <input type="email" id="email-preordine" name="email" placeholder="mario.rossi@esempio.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Seleziona l'Edizione:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="edizione" value="standard" checked> Standard (€59.99)</label>
+                        <label><input type="radio" name="edizione" value="deluxe"> Deluxe (€79.99)</label>
+                        <label><input type="radio" name="edizione" value="collectors"> Collector's (€149.99)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Conferma Preordine</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Arcanum Games - Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
