@@ -1,0 +1,41 @@
+:root {
+    --bg-main: hsl(215, 28%, 10%);
+    --bg-header: hsl(220, 29%, 6%);
+    --bg-card: hsl(213, 27%, 15%);
+    --bg-input: hsl(213, 27%, 9%);
+    
+    --border-gold: hsl(41, 56%, 51%);
+    --border-gold-light: hsl(41, 56%, 70%);
+    
+    --accent-copper: hsl(18, 73%, 41%);
+    --accent-hover: hsl(18, 73%, 50%);
+    
+    --text-primary: hsl(210, 20%, 91%);
+    --text-muted: hsl(212, 16%, 68%);
+    
+    --font-primary: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--bg-header);
+    border-bottom: 2px solid var(--border-gold);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
