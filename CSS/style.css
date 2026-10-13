@@ -127,3 +127,23 @@ h2 {
 .home-card img {
     object-position: center;
 }
+
+.character-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.character-info h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.character-info p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+}
