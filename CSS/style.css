@@ -294,3 +294,40 @@ h2 {
     background-color: var(--accent-hover);
     box-shadow: 0 0 12px hsla(18, 73%, 50%, 0.6);
 }
+
+footer {
+    background-color: var(--bg-header);
+    border-top: 2px solid var(--border-gold);
+    text-align: center;
+    padding: 1.8rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .characters-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .character-card img {
+        height: 350px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
