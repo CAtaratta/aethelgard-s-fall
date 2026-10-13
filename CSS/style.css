@@ -96,3 +96,34 @@ h2 {
     letter-spacing: 1px;
     margin-bottom: 1rem;
 }
+
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+.character-card {
+    background-color: var(--bg-card);
+    border: 2px solid var(--border-gold);
+    outline: 1px solid hsla(41, 56%, 51%, 0.3);
+    outline-offset: -5px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.character-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top center;
+    border-bottom: 2px solid var(--border-gold);
+}
+
+.home-card img {
+    object-position: center;
+}
