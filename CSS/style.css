@@ -147,3 +147,28 @@ h2 {
     font-size: 0.95rem;
     margin-bottom: 1.2rem;
 }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+
+.stats-table th, 
+.stats-table td {
+    border: 1px solid hsl(212, 24%, 26%);
+    padding: 0.5rem 0.8rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.stats-table th {
+    background-color: var(--accent-copper);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.stats-table td {
+    background-color: hsla(215, 28%, 10%, 0.5);
+}
