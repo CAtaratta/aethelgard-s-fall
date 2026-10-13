@@ -209,3 +209,88 @@ h2 {
 .comparison-table tbody tr:nth-child(even) {
     background-color: hsla(215, 28%, 10%, 0.4);
 }
+
+.form-section {
+    background-color: var(--bg-card);
+    border: 2px solid var(--border-gold);
+    outline: 1px solid hsla(41, 56%, 51%, 0.3);
+    outline-offset: -5px;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 650px;
+    margin: 0 auto 3.5rem auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-section h2 {
+    text-align: center;
+    color: var(--border-gold);
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    padding: 0.75rem 1rem;
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-gold);
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+    outline: none;
+    border-color: var(--accent-copper);
+    box-shadow: 0 0 5px hsla(18, 73%, 41%, 0.6);
+}
+
+.radio-group {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.radio-group label {
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.submit-btn {
+    background-color: var(--accent-copper);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid var(--border-gold);
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--accent-hover);
+    box-shadow: 0 0 12px hsla(18, 73%, 50%, 0.6);
+}
